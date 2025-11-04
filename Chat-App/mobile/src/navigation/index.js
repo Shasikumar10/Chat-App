@@ -6,6 +6,7 @@ import LoginScreen from '../screens/LoginScreen';
 import RegisterScreen from '../screens/RegisterScreen';
 import ChatsListScreen from '../screens/ChatsListScreen';
 import ChatScreen from '../screens/ChatScreen';
+import CreateChatScreen from '../screens/CreateChatScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import { ActivityIndicator, View } from 'react-native';
@@ -40,6 +41,14 @@ export default function Navigation() {
             component={ChatScreen}
             options={{ 
               headerBackTitle: 'Back',
+              gestureEnabled: true 
+            }}
+          />
+          <Stack.Screen
+            name="CreateChat"
+            component={CreateChatScreen}
+            options={{ 
+              title: 'New Chat',
               gestureEnabled: true 
             }}
           />
