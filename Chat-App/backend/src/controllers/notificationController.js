@@ -43,4 +43,7 @@ async function sendPushNotification(userId, notification) {
   }
 }
 
-module.exports = { registerPushToken, sendPushNotification };
+module.exports = { 
+  registerPushToken: exports.registerPushToken, 
+  sendPushNotification 
+};
