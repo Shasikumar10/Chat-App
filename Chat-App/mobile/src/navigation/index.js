@@ -26,32 +26,58 @@ export default function Navigation() {
   return (
     <NavigationContainer>
       {user ? (
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName="ChatsList">
           <Stack.Screen
             name="ChatsList"
             component={ChatsListScreen}
-            options={{ headerShown: false }}
+            options={{ 
+              headerShown: false,
+              gestureEnabled: true 
+            }}
           />
           <Stack.Screen
             name="Chat"
             component={ChatScreen}
-            options={{ headerBackTitle: 'Back' }}
+            options={{ 
+              headerBackTitle: 'Back',
+              gestureEnabled: true 
+            }}
           />
           <Stack.Screen
             name="Profile"
             component={ProfileScreen}
-            options={{ title: 'Profile' }}
+            options={{ 
+              title: 'Profile',
+              gestureEnabled: true 
+            }}
           />
           <Stack.Screen
             name="Settings"
             component={SettingsScreen}
-            options={{ title: 'Settings' }}
+            options={{ 
+              title: 'Settings',
+              gestureEnabled: true 
+            }}
           />
         </Stack.Navigator>
       ) : (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="Login" component={LoginScreen} />
-          <Stack.Screen name="Register" component={RegisterScreen} />
+        <Stack.Navigator 
+          initialRouteName="Login"
+          screenOptions={{ 
+            headerShown: false,
+            gestureEnabled: true 
+          }}
+        >
+          <Stack.Screen 
+            name="Login" 
+            component={LoginScreen}
+            options={{ gestureEnabled: true }}
+          />
+          <Stack.Screen 
+            name="Register" 
+            component={RegisterScreen}
+            options={{ gestureEnabled: true }}
+          />
         </Stack.Navigator>
       )}
     </NavigationContainer>
