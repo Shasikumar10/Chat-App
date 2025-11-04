@@ -1,6 +1,10 @@
 import { io } from 'socket.io-client';
 
-const SOCKET_URL = 'http://localhost:4000';
+// Use your computer's local IP address when testing on a physical device
+// For Android Emulator, use: http://10.0.2.2:4000
+// For iOS Simulator, use: http://localhost:4000
+// For Physical Device, use: http://YOUR_LOCAL_IP:4000
+const SOCKET_URL = 'http://192.168.1.9:4000';
 
 class SocketService {
   constructor() {
