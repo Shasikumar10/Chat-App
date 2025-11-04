@@ -1,0 +1,7 @@
+# Uploaded files stored here
+*.jpg
+*.png
+*.mp4
+*.pdf
+*
+!.gitignore
