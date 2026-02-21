@@ -1,0 +1,74 @@
+SHASI KU MAR UPPU  
+Emai l: shashikumar44887@gmail.com  
+GitHub: github.com/Shasikumar1 0    
+LinkedI n: http://linkedin.com/in/shasi -kumar -7a05b7216  
+Phone : +91 8897972926  
+Hyderabad,  India 
+ 
+OBJECTIVE  
+AI & Data Science undergraduate seeking an AI Engineer / Machine Learning Engineer  role. 
+Experienced in building scalable AI systems using Retrieval -Augmented Generation (RAG), FastAPI, 
+and Large Language Models (LLMs) . Strong background in backend development, API integration, 
+and NLP -based solutions.  
+ 
+TECHNICAL SKILLS  
+Programming : Python, Java, JavaScript  
+Frameworks  & Tools : FastAPI, Flask, Node.js, Express.js  
+AI/ML : TensorFlow, Keras, Scikit -learn, NLP , RAG, FAISS  
+Databases : MySQL, MongoDB, Vector Databases  
+Web  Technologies : HTML, CSS, JavaScript, MERN Stack  
+Tools  & Platforms : Git, GitHub, Postman, VS Code, Google Colab  
+Other  Skills : RESTful APIs, JWT Authentication, Webhooks, Microservices  Architecture  
+ 
+PROJECTS  
+Agent -Based Research Paper Analyzer (Ongoing)  
+Developed an AI -powered system to retrieve and analyze research papers using arXiv and Semantic 
+Scholar APIs  
+Implemented RAG pipeline using FAISS , enabling semantic search across 1000+ research papers  
+Built an intelligent chatbot that reduces research analysis time by ~50% through summarization and 
+comparison  
+Designed scalable backend using FastAPI and REST APIs  
+Tech Stack:  Python, FastAPI, FAISS, REST APIs  
+ 
+Lost and Found – University Management Platform  
+Built a full -stack MERN application with secure JWT -based authentication and role -based access 
+control  
+Enabled real -time item reporting and tracking for improved campus efficiency  
+Designed RESTful APIs for seamless data communication between frontend and backend  
+Tech Stack : MongoDB, Express.js, Node.js, JavaScript  
+AI-Powered Complaint Logging System  
+Designed an automated conversational AI pipeline using GPT-4o, Vapi, and n8n  
+Processed and structured user grievances with 90%+ accuracy in entity extraction  
+Implemented webhook -driven architecture for real -time synchronization with Google Sheets  
+Improved data validation and reduced manual processing effort by ~60%  
+Tech Stack:  GPT-4o, Vapi, n8n, Webhooks, Google Sheets API  
+ 
+Web Scraper  
+Developed a Python -based web scraper using BeautifulSoup to extract structured data  
+Automated data extraction and parsing from HTML DOM elements, improving data collection 
+efficiency  
+Tech Stack:  Python, BeautifulSoup, HTML  
+ 
+Safe -Talk AI (Industrial Hackathon)  
+Built a multilingual conversational AI system with speech -to-text and safety filtering  
+Implemented a multi -agent RAG system  for real -time, context -aware responses  
+Integrated Groq LLaMA 3.1 model  for high -speed inference and response generation  
+Improved response latency and safety filtering efficiency in real -time applications  
+Tech Stack:  Python, FastAPI, FAISS, Sentence Transformers, LLaMA, HTML, CSS, JavaScript  
+ 
+EDUCATION  
+B.Tech in Artificial Intelligence and Data Science  
+KLH University, Hyderabad (2023 – 2027)  
+CGPA: 8.41  
+ 
+CERTIFICATIONS  
+AWS Certified Cloud Practitioner  
+Automation Anywhere Certified Professional  
+Salesforce Certified Agentforce Specialist  
+GitHub Foundations  
+ 
+ACHIEVEMENTS & ACTIVITIES  
+SAC Member – Organized and managed large -scale college events  
+Cricket Coordinator – Led team coordination and event execution  
+Hackathon Participant – Built production -level AI conversational systems  
+ 
